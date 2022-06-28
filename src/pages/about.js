@@ -1,20 +1,19 @@
 import { Link } from "gatsby";
 import React from "react";
 
-const IndexPage = () => {
+function AboutPage() {
   return (
     <main>
-      <title>Home Page</title>
+      <title>자기소개</title>
 
       <div style={{ display: "flex", gap: 10 }}>
         <Link to="/">홈</Link>
         <Link to="/about">어바웃</Link>
-
       </div>
 
-      <h1>Home Page</h1>
+      <h1>자기소개 페이지 입니다.</h1>
     </main>
   );
-};
+}
 
-export default IndexPage;
+export default AboutPage;
